@@ -13,4 +13,6 @@ public interface ProductDao {
 	public Product getProduct(int productId);
 	public List getAllProduct();
 	public List getbed();
+	public List gettable();
+	public List getsofa();
 }

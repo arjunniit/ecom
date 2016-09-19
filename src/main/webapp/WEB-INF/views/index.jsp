@@ -1,10 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-	<%@ include file="header.jsp"%>
+<%@ include file="header.jsp"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>Bootstrap Example</title>
+<title>ecom</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
@@ -27,12 +27,19 @@ footer {
 	background-color: #f2f2f2;
 	padding: 25px;
 }
-</style>
+body {
+    background-image: url("http://images.all-free-download.com/images/graphicthumb/black_background_207732.jpg");
+    background-color: #cccccc;
+    
+}
+    </style>
+
 </head>
 <body>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12">
+
 				<div class="carousel slide" id="carousel-921114">
 					<ol class="carousel-indicators">
 						<li class="active" data-slide-to="0"
@@ -45,34 +52,19 @@ footer {
 							<img alt="bed"
 								src="http://www.zimmber.com/blog/wp-content/uploads/2015/09/chose-right-sofa-color.jpg"
 								width="100%" height="50%">
-							<div class="carousel-caption">
-								<h4>First Thumbnail label</h4>
-								<p>Cras justo odio, dapibus ac facilisis in, egestas eget
-									quam. Donec id elit non mi porta gravida at eget metus. Nullam
-									id dolor id nibh ultricies vehicula ut id elit.</p>
-							</div>
+							<div class="carousel-caption"></div>
 						</div>
 						<div class="item">
 							<img alt="table"
 								src="http://www.zimmber.com/blog/wp-content/uploads/2015/09/chose-right-sofa-color.jpg"
 								width="100%" height="50%">
-							<div class="carousel-caption">
-								<h4>Second Thumbnail label</h4>
-								<p>Cras justo odio, dapibus ac facilisis in, egestas eget
-									quam. Donec id elit non mi porta gravida at eget metus. Nullam
-									id dolor id nibh ultricies vehicula ut id elit.</p>
-							</div>
+							<div class="carousel-caption"></div>
 						</div>
 						<div class="item">
 							<img alt="sofa"
 								src="http://www.zimmber.com/blog/wp-content/uploads/2015/09/chose-right-sofa-color.jpg"
 								width="100%" height="50%">
-							<div class="carousel-caption">
-								<h4>Third Thumbnail label</h4>
-								<p>Cras justo odio, dapibus ac facilisis in, egestas eget
-									quam. Donec id elit non mi porta gravida at eget metus. Nullam
-									id dolor id nibh ultricies vehicula ut id elit.</p>
-							</div>
+							<div class="carousel-caption"></div>
 						</div>
 					</div>
 					<a class="left carousel-control" href="#carousel-921114"
@@ -93,21 +85,21 @@ footer {
 		<br>
 		<div class="row">
 			<div class="col-sm-4">
-				<a href="beds"><img
+				<a href="bed"><img
 					src="http://bachaterahoo.com/wp-content/uploads/2015/03/Furnize-Impex-Supersoft-Comfortable-Sofa-Bed.jpg"
 					alt="bed"></a>
 				<p>BED</p>
 			</div>
 			<div class="col-sm-4">
-				<img
+				<a href="table"><img
 					src="http://n1.sdlcdn.com/imgs/a/q/n/large/Rugged-Wood-Teak-Wood-Dining-SDL525297016-1-4f13c.jpg"
-					alt="table">
+					alt="table"></a>
 				<p>table</p>
 			</div>
 			<div class="col-sm-4">
-				<img
+				<a href="sofa"><img
 					src="http://bachaterahoo.com/wp-content/uploads/2015/04/Divano-Modular-Black-Solid-Wood-Sofa.jpg"
-					alt="table">
+					alt="table"></a>
 				<p>sofa</p>
 			</div>
 			<%@ include file="footer.jsp"%>

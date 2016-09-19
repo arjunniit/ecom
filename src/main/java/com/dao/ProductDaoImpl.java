@@ -34,6 +34,7 @@ public class ProductDaoImpl implements ProductDao{
 	public Product getProduct(int productId) {
 		return (Product)session.getCurrentSession().get(Product.class, productId);
 	}
+	
 
 	@Override
 	public List getAllProduct() {
@@ -41,7 +42,16 @@ public class ProductDaoImpl implements ProductDao{
 	}
 	@Override
 	public List getbed() {
-		return session.getCurrentSession().createQuery("from Product where category='beds'").list();
+		return session.getCurrentSession().createQuery("from Product where category='bed'").list();
 	}
+	@Override
+	public List gettable() {
+		return session.getCurrentSession().createQuery("from Product where category='table'").list();
+	}
+	@Override
+	public List getsofa() {
+		return session.getCurrentSession().createQuery("from Product where category='sofa'").list();
+	}
+	
 
 }

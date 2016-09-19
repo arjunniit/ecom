@@ -43,5 +43,12 @@ public class ProductServiceImpl implements ProductService{
 	public List getbed() {
 		return productDao.getbed();
 	}
+	@Transactional
+	public List gettable() {
+		return productDao.gettable();
+	}@Transactional
+	public List getsofa() {
+		return productDao.getsofa();
+	}
 
 }

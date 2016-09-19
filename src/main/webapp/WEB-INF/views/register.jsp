@@ -1,4 +1,4 @@
-<%@include file="/WEB-INF/views/header.jsp"%>
+<%@include file="/WEB-INF/views/header1.jsp"%>
 <style>
 #wrap {
 	background-image: linear-gradient(to bottom, #FFFFFF 0%, rgba(255, 255, 255, .15)
@@ -77,6 +77,10 @@ body, html {
 	border: 3px solid #ff0000;
 	padding: 8px;
 	margin: 16px;
+}
+body {
+    background-image: url("http://images.all-free-download.com/images/graphicthumb/black_background_207732.jpg");
+    background-color: #cccccc;
 }
 </style>
 

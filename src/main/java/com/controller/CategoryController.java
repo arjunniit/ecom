@@ -21,5 +21,21 @@ public class CategoryController {
 		map.put("productList", productService.getbed());
 		return "viewall";
 	}
+	@RequestMapping("/table")
+	public String getcategor(Map<String, Object> map) {
+		Product product = new Product();
+		map.put("product", product);
+		map.put("productList", productService.gettable());
+		return "viewall";
+	}
+	@RequestMapping("/sofa")
+	public String getcatego(Map<String, Object> map) {
+		Product product = new Product();
+		map.put("product", product);
+		map.put("productList", productService.getsofa());
+		return "viewall";
+	}
+
+
 
 }
